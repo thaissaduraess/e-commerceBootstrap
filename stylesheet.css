@@ -1,0 +1,53 @@
+.btn-outline-dark{
+    border-width: 1px!important;
+    border-radius: 10px!important;
+}
+
+.form-control{
+    border-width: 1px!important;
+    border-radius: 10px!important;
+}
+
+.containerLogin{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+
+.containerCadastro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box{
+    position: relative;
+    margin: 0px;
+    width: 360px;
+    height: 360px;
+}
+
+.carousel-item{
+    max-height: 500px;
+    overflow: hidden;
+}
+
+#carouselExampleControls img{
+    max-width: 100%;
+    max-height: 500px;
+    width: auto;
+    height: auto;
+}
+
+#imgLogoLogin{
+
+}
+
+@media screen and (max-width: 900px) {
+	#imgLogoLogin {
+		display: none;
+	}
+}
