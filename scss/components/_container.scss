@@ -1,0 +1,41 @@
+.containerLogin {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .containerCadastro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .box {
+    position: relative;
+    margin: 0px;
+    width: 360px;
+    height: 360px;
+  }
+
+  @media screen and (max-width: 1200px) {
+    .container {
+      width: 900px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    #container2 .text-center {
+      display: none;
+    }
+  
+    #fotoProduto {
+      position: relative;
+      overflow: hidden;
+      width: auto;
+      margin-right: 0px;
+      float: left;
+      display: block;
+    }
+  } 

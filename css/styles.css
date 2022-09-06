@@ -1,0 +1,73 @@
+.containerLogin {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerCadastro {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.box {
+  position: relative;
+  margin: 0px;
+  width: 360px;
+  height: 360px;
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #container2 .text-center {
+    display: none;
+  }
+  #fotoProduto {
+    position: relative;
+    overflow: hidden;
+    width: auto;
+    margin-right: 0px;
+    float: left;
+    display: block;
+  }
+}
+.form-control {
+  border-width: 1px !important;
+  border-radius: 10px !important;
+}
+
+.btn-outline-dark {
+  border-width: 1px !important;
+  border-radius: 10px !important;
+}
+
+.carousel-item {
+  max-height: 500px;
+  overflow: hidden;
+}
+
+#carouselExampleControls img {
+  max-width: 100%;
+  max-height: 500px;
+  width: auto;
+  height: auto;
+}
+
+@media screen and (max-width: 900px) {
+  #imgLogoLogin {
+    display: none;
+  }
+}
+body {
+  font: 100% Helvetica, sans-serif;
+  color: gray;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,24 @@
+@import './components/Components';
+
+.carousel-item {
+  max-height: 500px;
+  overflow: hidden;
+}
+
+#carouselExampleControls img {
+  max-width: 100%;
+  max-height: 500px;
+  width: auto;
+  height: auto;
+}
+
+@media screen and (max-width: 900px) {
+  #imgLogoLogin {
+    display: none;
+  }
+}
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
