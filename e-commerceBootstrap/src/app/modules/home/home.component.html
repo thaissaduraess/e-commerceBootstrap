@@ -1,0 +1,77 @@
+<app-nav-project></app-nav-project>
+    <h3 class="card-title text-center m-4">Todos os Produtos</h3>
+    <div class="row row-cols-1 row-cols-md-4 g-4">
+        <div class="col" *ngFor="let item of products">
+          <app-card-product [data]="item"> </app-card-product>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img src="./assets/CInza.jfif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Camisa Polo Cinza</h5>
+              <p class="card-text ">R$ 69,90</p>
+              <a href="pages/paginaDeProduto.html" class="btn btn-dark">Comprar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img src="./assets/branca.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Camisa Polo Branca</h5>
+              <p class="card-text">R$ 69,90</p>
+              <a href="pages/paginaDeProduto.html" class="btn btn-dark">Comprar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img src="./assets/camisaazul.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Camisa Polo Azul</h5>
+              <p class="card-text">R$ 69,90</p>
+              <a href="pages/paginaDeProduto.html" class="btn btn-dark">Comprar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 text-center">
+              <img src="./assets/images.jfif" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Camisa Polo Preta</h5>
+                <p class="card-text">R$ 69,90</p>
+                <a href="pages/paginaDeProduto.html" class="btn btn-dark">Comprar</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 text-center">
+              <img src="./assets/CInza.jfif" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Camisa Polo Cinza</h5>
+                <p class="card-text ">R$ 69,90</p>
+                <a href="pages/paginaDeProduto.html" class="btn btn-dark">Comprar</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 text-center">
+              <img src="./assets/branca.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Camisa Polo Branca</h5>
+                <p class="card-text">R$ 69,90</p>
+                <a href="pages/paginaDeProduto.html" class="btn btn-dark">Comprar</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 text-center">
+              <img src="./assets/camisaazul.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Camisa Polo Azul</h5>
+                <p class="card-text">R$ 69,90</p>
+                <a href="pages/paginaDeProduto.html" class="btn btn-dark">Comprar</a>
+              </div>
+            </div>
+          </div>
+      </div>

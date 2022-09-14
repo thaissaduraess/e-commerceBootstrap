@@ -1,0 +1,50 @@
+
+<div class="container col justify-content-center align-items-center d-flex h-100 w-100">
+
+  <form class="mb-3 d-flex justify-content-center" [formGroup]="profileForm" (ngSubmit)="onSubmit()">
+    <div class="row w-75">
+      <h2 class="text-center">Crie seu cadastro</h2>
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail4" formControlName="email">
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">Senha</label>
+          <input type="password" class="form-control" id="inputPassword4" formControlName="senha">
+        </div>
+        <div class="col-md-4">
+          <label for="inputZip" class="form-label">CEP</label>
+          <input type="text" class="form-control" id="inputZip" placeholder="000000-000" formGroupName="CEP">
+        </div>
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">Cidade</label>
+          <input type="text" class="form-control" id="inputCity" formControlName="cidade">
+        </div>
+        <div class="col-md-2">
+          <label for="inputState" class="form-label">Estado</label>
+          <select class="form-control col-md-5 estados" formControlName="estados">
+            <option value="{{estd.id}}" *ngFor="let estd of estados">{{estd.nome_estado}}</option>
+          </select>
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Endereço</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="Rua exemplo, 12" formControlName="endereço">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress2" class="form-label">Complemento</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="Edf. Amazonas, Apto: 5." formControlName="complemento">
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              Lembre-me
+            </label>
+          </div>
+        </div>
+        <div class="w-100">
+          <button class="btn btn-primary w-100" type="submit" [disabled]="!profileForm.valid">Cadastre-se</button>
+        </div>
+    </div>
+  </form>
+</div>
