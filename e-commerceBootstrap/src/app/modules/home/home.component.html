@@ -1,7 +1,7 @@
-<app-nav-project></app-nav-project>
-  <h3 class="card-title text-center m-4">Todos os Produtos</h3>
+<app-nav-product></app-nav-product>
+<h3 class="card-title text-center m-4">Todos os Produtos</h3>
   <div class="row row-cols-1 row-cols-md-4 g-4">
     <div class="col" *ngFor="let item of products">
-      <app-card-product [data]="item"> </app-card-product>
+      <app-card-product [data]="item"></app-card-product>
     </div>
   </div>
