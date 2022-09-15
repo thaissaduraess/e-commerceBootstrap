@@ -10,15 +10,16 @@ const routes: Routes = [
     component: ProductsComponent ,
     children: [
       {
-        path:'',component: ListProductsComponent,
+        path: 'lista',
+        component: ListProductsComponent,
       },
       {
-        path: 'categoria',  // child route path
-        component: CategoriaProductComponent,  // child route component that the router renders
+        path: 'categoria',
+        component: CategoriaProductComponent,
       },
       {
-        path: 'details/:id',  // child route path
-        component: DetailsProductComponent,  // child route component that the router renders
+        path: 'details/:id',
+        component: DetailsProductComponent,
       }
     ],
   },
