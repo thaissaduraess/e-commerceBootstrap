@@ -45,19 +45,19 @@ export class ListProductsComponent implements OnInit {
       id: 7, vl_product: 'R$ 22.00', srcImg: 'assets/products/praia/praia9.jpg', name_product: 'Roupa de Banho 7'
     },
     {
-      id: 8, vl_product: 'R$ 54,90', srcImg: 'assets/products/praia/praia11.jpg', name_product: 'Roupa de Banho 8'
+      id: 8, vl_product: 'R$ 55,90', srcImg: 'assets/products/praia/praia11.jpg', name_product: 'Roupa de Banho 8'
     },
     {
-      id: 9, vl_product: 'R$ 54,90', srcImg: 'assets/products/praia/praia4.jpg', name_product: 'Roupa de Banho 9'
+      id: 9, vl_product: 'R$ 55,90', srcImg: 'assets/products/praia/praia4.jpg', name_product: 'Roupa de Banho 9'
     },
     {
-      id: 10, vl_product: 'R$ 54,90', srcImg: 'assets/products/praia/praia5.jpg', name_product: 'Roupa de Banho 10'
+      id: 10, vl_product: 'R$ 55,90', srcImg: 'assets/products/praia/praia5.jpg', name_product: 'Roupa de Banho 10'
     },
     {
       id: 11, vl_product: 'R$ 70,00', srcImg: 'assets/products/praia/praia6.jpg', name_product: 'Roupa de Banho 11'
     },
     {
-      id: 12, vl_product: 'R$ 54,90', srcImg: 'assets/products/praia/praia7.jpg', name_product: 'Roupa de Banho 12'
+      id: 12, vl_product: 'R$ 55,90', srcImg: 'assets/products/praia/praia7.jpg', name_product: 'Roupa de Banho 12'
     }
   ]
 
