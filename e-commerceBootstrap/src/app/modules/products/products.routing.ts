@@ -1,3 +1,4 @@
+import { CarrinhoComponent } from './carrinho/carrinho.component';
 import { CategoriaProductComponent } from './categoria-product/categoria-product.component';
 import { DetailsProductComponent } from './details-product/details-product.component';
 import { ListProductsComponent } from './list-products/list-products.component';
@@ -20,6 +21,10 @@ const routes: Routes = [
       {
         path: 'details/:id',
         component: DetailsProductComponent,
+      },
+      {
+        path: 'carrinho',
+        component: CarrinhoComponent,
       }
     ],
   },
