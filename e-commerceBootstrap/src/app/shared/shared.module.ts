@@ -1,3 +1,4 @@
+import { CardCarrinhoComponent } from './../components/card-carrinho/card-carrinho.component';
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
@@ -14,9 +15,10 @@ import { NavProductComponent } from '../components/nav-product/nav-product.compo
 
   declarations: [
     NavProductComponent,
-    CardProductComponent
+    CardProductComponent,
+    CardCarrinhoComponent
   ],
 
-  exports: [ CommonModule, FormsModule, ReactiveFormsModule, NavProductComponent, CardProductComponent ]
+  exports: [ CommonModule, FormsModule, ReactiveFormsModule, NavProductComponent, CardProductComponent, CardCarrinhoComponent ]
 })
 export class SharedModule {  }

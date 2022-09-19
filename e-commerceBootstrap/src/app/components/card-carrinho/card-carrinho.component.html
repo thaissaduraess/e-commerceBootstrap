@@ -1,0 +1,19 @@
+<p class="h4">Lista de produtos</p>
+<table class="table">
+  <thead class="table-light text-center">
+    <tr>
+      <th scope="col">Produto</th>
+      <th scope="col">Preço</th>
+      <th scope="col">Quantidade</th>
+      <th scope="col" class="d-none d-sm-block">Subtotal</th>
+    </tr>
+  </thead>
+  <tbody class="text-center">
+    <tr *ngFor="let item of data">
+      <th scope="row">{{ item.name_product }}</th>
+      <td>{{ item.vl_product }}</td>
+      <td>{{ item.qnt }}</td>
+      <td class="d-none d-sm-block">{{ item.vl_product }}</td>
+    </tr>
+  </tbody>
+</table>
