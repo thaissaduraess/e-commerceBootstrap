@@ -6,9 +6,25 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./carrinho.component.scss']
 })
 export class CarrinhoComponent implements OnInit {
-  qnt:any = '1';
-  price: any = 'R$ 129,90';
-  frete: any = '-';
+
+  name_product: any = 'Biquini 2'
+  vl_product: any = 'R$ 54,90'
+  qnt: any = '1'
+  frete: any = '-'
+
+  datas = [
+    'Biquini',
+    'Biquini 2'
+  ]
+
+  products = [
+    {
+      name_product: 'Biquini 1', vl_product: 'R$ 54,90', qnt: '1', frete: '-'
+    },
+    {
+      name_product: 'Biquini 2', vl_product: 'R$ 54,90', qnt: '1', frete: '-'
+    }
+  ]
 
   constructor() { }
 

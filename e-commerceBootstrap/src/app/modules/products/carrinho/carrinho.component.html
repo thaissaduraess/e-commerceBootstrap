@@ -1,32 +1,12 @@
 <app-nav-product></app-nav-product>
 <div class="container">
-  <div class="row">
-    <div class="col-sm-8">
-      <p class="h4 m-3">Lista de produtos</p>
-      <table class="table">
-        <thead class="table-light text-center">
-          <tr>
-            <th scope="col">Produto</th>
-            <th scope="col">Preço</th>
-            <th scope="col">Quantidade</th>
-            <th scope="col" id="subtotal">Subtotal</th>
-          </tr>
-        </thead>
-        <tbody class="text-center">
-          <tr>
-            <th scope="row">Maiô Vermelho</th>
-            <td>129,90</td>
-            <td>1</td>
-            <td id="subtotal">129,90</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+  <div class="row m-2">
+    <app-card-carrinho class="col-sm-8" [data]="products"></app-card-carrinho>
     <div class="col-sm-4">
-      <p class="h4 m-3">Resumo do Pedido</p>
-      <small class="col m-2">Subtotal({{qnt}}x) {{ price }}</small>
+      <p class="h4">Resumo do Pedido</p>
+      <small class="col m-2">Subtotal({{qnt}}x) {{ vl_product }}</small>
       <small class="row m-2">Frete {{frete}}</small>
-      <p class="h5 m-3">Total {{price}}</p>
+      <p class="h5 m-3">Total {{vl_product}}</p>
       <button class="btn btn-dark w-100">Comprar</button>
     </div>
   </div>
