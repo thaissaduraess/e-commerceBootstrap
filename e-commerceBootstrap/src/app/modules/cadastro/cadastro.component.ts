@@ -7,7 +7,7 @@ import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms'
   styleUrls: ['./cadastro.component.css']
 })
 export class CadastroComponent implements OnInit {
-  estd: any = {};
+
   profileForm = new FormGroup({
     email: new FormControl(''),
     senha: new FormControl(''),
